@@ -9,11 +9,11 @@ import config
 
 # from telegram.ext import CommandHandler, Updater
 
-#updater = Updater('1880633054:AAGQyhqzRDHWhFkjhfd3OEtWGM0PpIu8rxM', use_context=True)
+#updater = Updater('token', use_context=True)
 #job_queue = updater.job_queu
 
-bot = telebot.TeleBot('1880633054:AAGQyhqzRDHWhFkjhfd3OEtWGM0PpIu8rxM')
-conn = sqlite3.connect('C:/Users/alexa/Documents/projects/stuff_checker/db/stuffcheckerdb.db',
+bot = telebot.TeleBot('token')
+conn = sqlite3.connect('db adress',
                        check_same_thread=False)
 cursor = conn.cursor()
 
